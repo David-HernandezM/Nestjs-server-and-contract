@@ -1,0 +1,12 @@
+[package]
+name = "contract"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+sails-rs.workspace = true
+gstd.workspace = true
+keyring-service.workspace = true
+
+[features]
+wasm-binary = []
